@@ -63,8 +63,9 @@ const Form = ({
             setConfirmPassword(event.target.value);
           }}
         />
+        <button type="submit">REGISTER</button>
       </form>
-      <button type="submit">REGISTER</button>
+      
     </>
   );
 };
