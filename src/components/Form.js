@@ -9,6 +9,7 @@ const Form = ({
   setPassword,
   confirmPassword,
   setConfirmPassword,
+  setStep,
 }) => {
   const handleNameChange = (event) => {
     const value = event.target.value;
@@ -25,6 +26,8 @@ const Form = ({
 
           if (password !== confirmPassword) {
             alert("Vos deux mots de passes ne sont pas identiques");
+          }else{
+            setStep(2);
           }
         }}
       >
@@ -63,7 +66,10 @@ const Form = ({
             setConfirmPassword(event.target.value);
           }}
         />
+        <div>
         <button type="submit">REGISTER</button>
+        </div>
+       
       </form>
       
     </>

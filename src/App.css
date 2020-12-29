@@ -1,1 +1,66 @@
-/* Other rules */
+input{
+
+height: 50px;
+width: 635px;
+border-radius: 10px;
+background-color: #FEF9F9;
+padding-left: 5px;
+
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+button{
+    height: 50px;
+    width: 150px; 
+    background-color:#574DCC; 
+    border-radius: 10px;
+    color: white;
+    font-weight: bold ;
+    margin-top: 10px;
+
+}
+
+
+p{
+    color: black;
+    font-weight: bold;
+    
+}
+::placeholder{
+    justify-content: center;
+}
+
+
+
+.containerFooter{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.containerResult{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
